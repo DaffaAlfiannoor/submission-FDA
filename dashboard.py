@@ -58,15 +58,15 @@ def load_data():
     base = os.path.dirname(__file__)
     def p(f): return os.path.join(base, f)
 
-    customers   = pd.read_csv(p('E-commerce public dataset/customers_dataset.csv'))
-    orders      = pd.read_csv(p('E-commerce public dataset/orders_dataset.csv'))
-    order_items = pd.read_csv(p('E-commerce public dataset/order_items_dataset.csv'))
-    payments    = pd.read_csv(p('E-commerce public dataset/order_payments_dataset.csv'))
-    reviews     = pd.read_csv(p('E-commerce public dataset/order_reviews_dataset.csv'))
-    products    = pd.read_csv(p('E-commerce public dataset/products_dataset.csv'))
-    category_tr = pd.read_csv(p('E-commerce public dataset/product_category_name_translation.csv'))
-    sellers     = pd.read_csv(p('E-commerce public dataset/sellers_dataset.csv'))
-    geolocation = pd.read_csv(p('E-commerce public dataset/geolocation_dataset.csv'))
+    customers   = pd.read_csv(p('E-Commerce Public Dataset/customers_dataset.csv'))
+    orders      = pd.read_csv(p('E-Commerce Public Dataset/orders_dataset.csv'))
+    order_items = pd.read_csv(p('E-Commerce Public Dataset/order_items_dataset.csv'))
+    payments    = pd.read_csv(p('E-Commerce Public Dataset/order_payments_dataset.csv'))
+    reviews     = pd.read_csv(p('E-Commerce Public Dataset/order_reviews_dataset.csv'))
+    products    = pd.read_csv(p('E-Commerce Public Dataset/products_dataset.csv'))
+    category_tr = pd.read_csv(p('E-Commerce Public Dataset/product_category_name_translation.csv'))
+    sellers     = pd.read_csv(p('E-Commerce Public Dataset/sellers_dataset.csv'))
+    geolocation = pd.read_csv(p('E-Commerce Public Dataset/geolocation_dataset.csv'))
 
     # ── Clean & transform ─────────────────────────────────────────────────────
     date_cols = ['order_purchase_timestamp','order_approved_at',
