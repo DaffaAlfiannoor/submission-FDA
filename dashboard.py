@@ -186,7 +186,7 @@ rfm         = data['rfm']
 # SIDEBAR
 # ─────────────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Olist_logo.svg/320px-Olist_logo.svg.png", width=180)
+    st.image("https://i.pinimg.com/736x/00/9b/74/009b744ac549aca64fc353fba90412d4.jpg", width=180)
     st.markdown("---")
     st.markdown("## 📂 Navigation")
     page = st.radio("", [
@@ -213,8 +213,8 @@ mr_filt = monthly_rev[monthly_rev['year'].between(year_range[0], year_range[1])]
 # ─────────────────────────────────────────────────────────────────────────────
 # HEADER
 # ─────────────────────────────────────────────────────────────────────────────
-st.markdown('<div class="main-header">🛒 Olist E-Commerce Analytics</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-header">Brazilian E-Commerce Public Dataset • 2016–2018 • Interactive Analysis Dashboard</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">🛒 E-Commerce Analytics</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-header">E-Commerce Public Dataset • Interactive Analysis Dashboard</div>', unsafe_allow_html=True)
 
 # ─────────────────────────────────────────────────────────────────────────────
 # PAGE: OVERVIEW
